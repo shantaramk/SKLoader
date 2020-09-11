@@ -14,6 +14,7 @@
 		4C1B3D59250BECF1004E0AA9 /* LoaderAnimation.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4C1B3D57250BECF1004E0AA9 /* LoaderAnimation.xcdatamodeld */; };
 		4C1B3D5B250BECF3004E0AA9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C1B3D5A250BECF3004E0AA9 /* Assets.xcassets */; };
 		4C1B3D5E250BECF3004E0AA9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C1B3D5C250BECF3004E0AA9 /* LaunchScreen.storyboard */; };
+		4C1B3D66250BF379004E0AA9 /* SKLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C1B3D65250BF379004E0AA9 /* SKLoader.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		4C1B3D5A250BECF3004E0AA9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4C1B3D5D250BECF3004E0AA9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4C1B3D5F250BECF3004E0AA9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4C1B3D65250BF379004E0AA9 /* SKLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SKLoader.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +68,7 @@
 				4C1B3D5C250BECF3004E0AA9 /* LaunchScreen.storyboard */,
 				4C1B3D5F250BECF3004E0AA9 /* Info.plist */,
 				4C1B3D57250BECF1004E0AA9 /* LoaderAnimation.xcdatamodeld */,
+				4C1B3D65250BF379004E0AA9 /* SKLoader.swift */,
 			);
 			path = LoaderAnimation;
 			sourceTree = "<group>";
@@ -142,6 +145,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4C1B3D53250BECF1004E0AA9 /* ViewController.swift in Sources */,
+				4C1B3D66250BF379004E0AA9 /* SKLoader.swift in Sources */,
 				4C1B3D4F250BECF1004E0AA9 /* AppDelegate.swift in Sources */,
 				4C1B3D51250BECF1004E0AA9 /* SceneDelegate.swift in Sources */,
 				4C1B3D59250BECF1004E0AA9 /* LoaderAnimation.xcdatamodeld in Sources */,
@@ -289,12 +293,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GA4BAP9K3F;
 				INFOPLIST_FILE = LoaderAnimation/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = www.www.demo.LoaderAnimation;
+				PRODUCT_BUNDLE_IDENTIFIER = www.www.demo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -306,12 +312,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GA4BAP9K3F;
 				INFOPLIST_FILE = LoaderAnimation/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = www.www.demo.LoaderAnimation;
+				PRODUCT_BUNDLE_IDENTIFIER = www.www.demo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";

@@ -13,6 +13,13 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+        let chessborad = SKLoader()
+
+        view.addSubview(chessborad)
+        chessborad.backgroundColor = .white
+        chessborad.frame = view.frame
+        chessborad.center = view.center
+        
     }
 
 
